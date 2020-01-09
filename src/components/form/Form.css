@@ -1,0 +1,41 @@
+form {
+    margin-top: 3rem;
+  }
+  
+form input[name="city"],
+form input[name="country"] {
+  background-color: transparent;
+  color: #fff !important;
+  font-size: 2rem;
+  border: none;
+  border-bottom: 2px solid orangered;
+  border-radius: 0;
+ 
+}
+
+.form-control {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.forms {
+  padding-top: 10rem !important;
+  
+}
+
+@media screen and (max-width: 56.25em) {
+  .forms {
+    padding-top: 5rem !important;
+  }
+}
+
+@media screen and (max-width: 37.5em) {
+  .forms {
+    padding-top: 2.5rem !important;
+  }
+}
+
+
+  
